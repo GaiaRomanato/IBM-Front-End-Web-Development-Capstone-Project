@@ -21,7 +21,8 @@ const Home = () => {
                 <div>
                     <motion.h1 {...options}>Burger Shop</motion.h1>
                     <motion.p
-                     {...options} transition={{
+                     {...options}
+                     transition={{
                         delay: 0.2,
                      }}
                     >
