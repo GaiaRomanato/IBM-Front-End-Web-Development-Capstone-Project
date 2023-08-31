@@ -2,7 +2,8 @@
 
 .home {
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
+  opacity: 1;
 
   div {
     padding-left: 8rem;
@@ -10,10 +11,14 @@
     > h1 {
       font-size: 4rem;
       text-transform: uppercase;
+      color: $reddark;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+     
     }
 
     > p {
       font-size: 1.2rem;
+      color: $dark;
     }
   }
 
@@ -30,7 +35,7 @@
     padding: 1rem;
     cursor: pointer;
     &:hover {
-      background-color: $reddark;
+      background-color:$reddark;
     }
   }
 
