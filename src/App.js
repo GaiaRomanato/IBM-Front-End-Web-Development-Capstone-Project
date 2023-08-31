@@ -5,12 +5,9 @@ import Header from "./components/layout/Header";
 import Contact from "./components/contact/Contact";
 import Cart from "./components/cart/Cart";
 import Shipping from "./components/cart/Shipping";
-
-
 import Login from "./components/login/Login";
 import Profile from "./components/profile/Profile";
 import MyOrders from "./components/myOrders/MyOrders";
-
 import OrderDetails from "./components/myOrders/OrderDetails";
 import About from "./components/about/About";
 
@@ -40,11 +37,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/cart" element={<Shipping />} />
-        
         <Route path="/login" element={<Login />} />
         <Route path="/me" element={<Profile />} />
         <Route path="/myOrders" element={<MyOrders />} />
-
         <Route path="/order/:id" element={<OrderDetails />} />
       
        
